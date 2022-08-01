@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="icon" href="https://blog.cdn.own3d.tv/resize=fit:crop,width:600,height:600/2AmMcmTbT7Cej18WXpou">
+
+  </head>
+<body>
+    <div class = "bordaprincipal">
+      <header>
+        <div class="titulo">
+          <p>Situação</p>
+          <p>de</p>
+          <p>aprendizagem</p>
+        </div>
+      </header>
+  
+
+    <div class="links">
+      <ul>
+          <div class="leis">
+          <li><a href=leis.html>Leis</li><br>
+        <img src="../img/Sadi.png" 
+        height="170px"
+       class="borda">
+       </a>
+       </div>
+
+          <div class="maquina">
+         <li><a href="maquina.html">Máquinas</li><br>
+          <img src="https://franciscogomesdasilva.com.br/wp-content/uploads/2015/11/nav04.jpg"
+         height="170"
+         width="220" 
+         class="borda">
+         </a>
+         </div>
+
+          <div class="calculadoras">
+          <li><a href="calculadora.html">Calculadora</li><br>
+          <img src="https://www.topgadget.com.br/wp-content/uploads/2021/05/calculadora-calculando-contas-matematica.jpg"
+          height="170"
+          width="220" 
+          class="borda">
+          </a>
+         </div>
+    </ul>
+</div>
+</div>
+    <div class = "menu">
+        <p>Calculadora</p>
+    </div>
+
+    <div class="texto">
+      <h1 align="center"></h1>
+      <p>A calculadora do projeto foi designada para calcular os seguintes conceitos da térmodinamica:</p>
+      <div class = "list">
+      
+          <li>Rendimento</li>
+          <li>Energia</li>
+          <li>Trabalho</li>
+          <li>Calor</li>
+        
+      </div>
+      <p>O histórico de todas as contas estarão disponivel no final da pagina.</p>
+  
+    </div>
+
+
+    <div class = calculadora>
+      <div class = "rendimento">
+        Rendimento
+        <div class="calculo">
+          <input type="number" placeholder="trabalho" id="q1">
+          <input type="number" placeholder="energia" id="q2">
+        </div>
+
+          <div class="resultado">
+            <br>
+            <input type="number" readonly placeholder="resultado" id="n">
+          </div>
+
+          <div class="botao-calculadora">
+            <button class="button" onclick="rendimento()">Calcular</button>
+          </div>
+      </div>
+<hr>
+      <div class = "energia">
+        Energia
+        <div class="calculo">
+          <input type="number" placeholder="calor" id="q3">
+          <input type="number" placeholder="trabalho" id="q4">
+        </div>
+
+          <div class="resultado">
+            <br>
+            <input type="number" readonly placeholder="energia" id="q5">
+          </div>
+          
+          <div class="botao-calculadora">
+            <button class="button" onclick="energia()">Calcular</button>
+          </div>
+      </div>
+
+<hr>
+
+      <div class = "trabalho">
+        Trabalho
+        <div class="calculo">
+          <input type="number" placeholder="energia" id="q6">
+          <input type="number" placeholder="calor" id="q7">
+        </div>
+          
+          <div class="resultado">
+            <br>
+            <input type="number" readonly placeholder="trabalho" id="q8">
+          </div>
+          
+          <div class="botao-calculadora">
+            <button class="button" onclick="trabalho()">Calcular</button>
+          </div>
+      </div>
+
+<hr>
+
+      <div class = "calor">
+        Calor
+        <div class="calculo"><input type="number" placeholder="energia" id="q9"> <input type="number" placeholder="trabalho" id="q10"><div class="resultado"><br><input type="number" readonly placeholder="calor" id="q11"></div><div class="botao-calculadora">
+        <button class="button" onclick="calor()">Calcular</button>
+      </div>
+
+    </div>
+
+ <hr>
+ 
+      </div>
+    </div>
+
+      <div class = "historico">
+        Histórico abaixo
+        <p id="historico"></p>
+        <script src="../js/calculadora.js"></script>
+      </div>
+      
+
+</body>
+</html>
