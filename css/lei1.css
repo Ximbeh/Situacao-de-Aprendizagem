@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to left, #bf8d7a, #f2c1ae, #f2a29b );
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+    }
+
+.bordaprincipal{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+}
+
+header{
+    padding: 6%;
+    background-image: url(../img/Barco\ 3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-position: left center;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.titulo{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.menu{
+    margin-top: 1.5%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #252526;
+    color: rgb(255, 250, 240);
+    margin-right:35%;
+    margin-left: 35%;
+    margin-top: 1.5%;
+    border-radius: 50px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 500%;
+     /* width: max-content; */
+}
+
+
+.texto{
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    text-align:center;
+    text-indent: 5%;
+    color:#ffffff;
+    padding: 3%;
+    font-size: 200%;
+    background: rgba(37,37,38,0.5);
+    
+}
+
+.botao{
+    margin-bottom: 5%;
+}
+.botao1{
+    padding: 3%;
+    background-color: #f7cdc9;
+    border-radius: 50px;
+    border: solid #252526;
+    font-size: 250%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: transform 0.3s;
+ 
+    
+
+}
+
+.botao2{
+    padding: 3%;
+    background-color: #f7cdc9;
+    border-radius: 50px;
+    border: solid #252526;
+    font-size: 250%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: transform 0.3s;
+ 
+
+}
+
+.botao3{
+    padding: 3%;
+    background-color: #f7cdc9;
+    border-radius: 50px;
+    border: solid #252526;
+    font-size: 250%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+
+}
+
+.botao4{
+    padding: 3%;
+    background-color: #f7cdc9;
+    border-radius: 50px;
+    border: solid #252526;
+    font-size: 250%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+.botao1:hover{
+    background-color: #f8ecea;
+    border: solid #111111;
+    transform: scale(1.13);
+
+}
+
+
+
+
+.botao2:hover{
+    background-color: #f8ecea;
+    border: solid #111111;
+    transform: scale(1.13);
+}
+
+.botao3:hover{
+    background-color: #f8ecea;
+    border: solid #111111;
+    transform: scale(1.13);
+
+}
+
+.botao4:hover{
+    background-color: #f8ecea;
+    border: solid #111111;
+    transform: scale(1.13);
+
+}
+
+
+
+.borda{
+    border-radius: 10px
+}
+
+.borda2{
+    border-radius: 45px
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes degrade-animado{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+        
+}
