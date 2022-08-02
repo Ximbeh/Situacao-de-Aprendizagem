@@ -123,10 +123,25 @@
         <p>Turma: 2B</p>
         <p>Escola: Escola S Sesi-Senai</p>
         <img class = "logo" src="./img/EscolaS.png" alt="">
+
+        <div class = "container">
+            <div class = "btn"> </div>
+        </div>
         
     </ul>
 
+<script>
 
+    const btn = document.querySelector('.btn');
+    const body = document.querySelector('body');
+
+    btn.onclick = function()
+    {
+        this.classList.toggle('active')
+        body.classList.toggle('active')
+    }
+
+</script>
 
 </footer>
 </body>
